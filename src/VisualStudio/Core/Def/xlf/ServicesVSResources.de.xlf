@@ -1098,11 +1098,6 @@ Zusätzliche Informationen: {1}</target>
         <target state="translated">Spezifikationen verwalten</target>
         <note />
       </trans-unit>
-      <trans-unit id="Manage_styles">
-        <source>Manage styles</source>
-        <target state="translated">Stile verwalten</target>
-        <note />
-      </trans-unit>
       <trans-unit id="Reorder">
         <source>Reorder</source>
         <target state="translated">Neu anordnen</target>
@@ -1467,10 +1462,10 @@ You acknowledge that binary code and source code might be protected by copyright
 Your use of the Decompiler is optional.  Microsoft is not responsible and disclaims all liability for your use of the Decompiler that violates any laws or any software license terms which prohibit decompiling of the software.
 
 I agree to all of the foregoing:</source>
-        <target state="translated">WICHTIG: Visual Studio umfasst eine Funktionalität für die Dekompilierung ("Decompiler"), der das Reproduzieren von Quellcode aus Binärcode ermöglicht. Indem Sie auf den Decompiler zugreifen und ihn verwenden, stimmen Sie den nachstehend aufgeführten Visual Studio-Lizenzbedingungen und den Bedingungen für den Decompiler zu. Wenn Sie diesen kombinierten Nutzungsbedingungen nicht zustimmen, greifen Sie nicht auf den Decompiler zu, und verwenden Sie ihn nicht.
+        <target state="needs-review-translation">WICHTIG: Visual Studio umfasst eine Funktionalität für die Dekompilierung ("Decompiler"), der das Reproduzieren von Quellcode aus Binärcode ermöglicht. Indem Sie auf den Decompiler zugreifen und ihn verwenden, stimmen Sie den nachstehend aufgeführten Visual Studio-Lizenzbedingungen und den Bedingungen für den Decompiler zu. Wenn Sie diesen kombinierten Nutzungsbedingungen nicht zustimmen, greifen Sie nicht auf den Decompiler zu, und verwenden Sie ihn nicht.
 
-Sie erkennen an, dass der Binärcode und der Quellcode möglicherweise durch Urheberrechts- und Markengesetze geschützt sind. Bevor Sie den Compiler für Binärcode einsetzen, müssen Sie Folgendes sicherstellen: 
-(i) Vergewissern Sie sich, dass die Lizenzbedingungen zur Verwendung des Binärcodes keine Klausel enthalten, die das Dekompilieren der Software verbietet. Oder: 
+Sie erkennen an, dass der Binärcode und der Quellcode möglicherweise durch Urheberrechts- und Markengesetze geschützt sind. Bevor Sie den Compiler für Binärcode einsetzen, müssen Sie Folgendes sicherstellen:
+(i) Vergewissern Sie sich, dass die Lizenzbedingungen zur Verwendung des Binärcodes keine Klausel enthalten, die das Dekompilieren der Software verbietet. Oder:
 (ii) Holen Sie beim Besitzer der Software eine Genehmigung zum Dekompilieren des Binärcodes ein.
 
 Die Verwendung des Decompilers ist optional. Microsoft übernimmt keine Verantwortung und lehnt jede Haftung für Ihre Nutzung des Decompilers ab, die gegen Gesetze oder Softwarelizenzbedingungen verstößt, die das Dekompilieren der Software verbieten.
@@ -1511,6 +1506,11 @@ Ich stimme allen vorstehenden Bedingungen zu:</target>
       <trans-unit id="Analyzing_0">
         <source>Analyzing '{0}'</source>
         <target state="translated">"{0}" wird analysiert.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="Manage_naming_styles">
+        <source>Manage naming styles</source>
+        <target state="new">Manage naming styles</target>
         <note />
       </trans-unit>
       <trans-unit id="Field_preferences_colon">
